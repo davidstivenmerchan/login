@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fuente1:'Arial', sans-serif;
+    --fuente2: 'Arial', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuente2);
+    background: rgb(156, 10, 156);
+
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px;
+}
+.form{
+    width: 500px;
+    background: white;
+    border-radius: 10px 0 0 10px;
+}
+.img{
+    width: 500px;
+    background: rgb(73, 73, 73);
+    border-radius: 0px 10px 10px 0px;
+}
+h1{
+    text-align: center;
+    font-family: var(--fuente1);
+    margin-top: 100px;
+}
+.method{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 12px;
+    color: rgb(78, 77, 77);
+}
+.pass, .user{
+    width: 100%;
+    height: 25px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+label{
+    font-size: 13px;
+}
+form{
+    
+    margin: 0px 35px;
+}
+.divuser, .divpass{
+    margin-top: 20px;
+}
+.recordar{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.recordar a{
+    text-decoration: none;
+    color: rgb(128, 128, 233);
+    font-size: 13px;
+}
+.login{
+    width: 100%;
+    height: 35px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+}
+.texto{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;
+    font-weight: 600;
+    border: 1px solid rgb(156, 154, 154);
+    border-radius: 10px;
+}
+.botones  button:nth-child(1){
+    background: white;
+    color: black;
+    
+}
+.botones  button:nth-child(2){
+    background: rgb(39, 39, 156);
+    color: white;
+    
+    
+}
+.botones  button:nth-child(3){
+    background: rgb(87, 87, 139);
+    color: white;
+}
